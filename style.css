@@ -1,0 +1,124 @@
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+nav{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EFBC9B;
+    align-items: center;
+}
+form{
+    width: 20%;
+    background-color: #D6DAC8;
+    color: #0a0908;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    width: 60%;
+    background-color: #FBF3D5;
+    color: #0a0908;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    display: flex;
+    box-sizing: border-box;
+    border-bottom: 2px dashed #0a0908;
+    color: #0a0908;
+    width: 90%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: solid;
+    margin: 0;
+}
+footer{
+    height: 10%;
+    background-color: #9CAFAA;
+    color: #0a0908;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+input{
+    width: 40%;
+    margin: 15px;
+}
+button{
+    width: 40%;
+    margin: 15px;
+    background-color: #EFBC9B;
+}
+p{
+    margin: 50px;
+    text-align: center;
+}
+.blokp{
+    display: flex;
+    align-items: center;
+}
+.bloks{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+}
+.bl1{
+    height: 30vh;
+    width: 33.3%;
+    border: 2px solid #0a0908;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #EFBC9B;
+}
+.bl2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bl21{
+    height: 33.3%;
+    width: 10vw;
+    border: 2px solid #0a0908;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #EFBC9B;
+
+}
+.bl22{
+    height: 33.3%;
+    width: 10vw;
+    display: flex;
+    gap: 10px;
+}
+.bl221{
+    height: 100%;
+    width: 50%;
+    border: 2px solid #0a0908;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #EFBC9B;
+}
+
